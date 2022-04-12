@@ -30,6 +30,11 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # Simple direct Service Locator that allows to decouple the 
+  # interface from a concrete implementation and to access the concrete 
+  # implementation from everywhere in your App"
+  get_it: ^7.2.0
+
   # A powerful Http client for Dart, which supports Interceptors, FormData, 
   # Request Cancellation, File Downloading, Timeout etc.
   dio: ^4.0.6
